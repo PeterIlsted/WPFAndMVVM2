@@ -1,0 +1,30 @@
+C:\Users\pibm9\Desktop\WPFAndMVVM2\bin\Debug\WPFAndMVVM2.exe.config
+C:\Users\pibm9\Desktop\WPFAndMVVM2\bin\Debug\WPFAndMVVM2.exe
+C:\Users\pibm9\Desktop\WPFAndMVVM2\bin\Debug\WPFAndMVVM2.pdb
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.csproj.AssemblyReference.cache
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\Views\MainWindow.g.cs
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\App.g.cs
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2_MarkupCompile.cache
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2_MarkupCompile.lref
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\Views\MainWindow.baml
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.g.resources
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.Properties.Resources.resources
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.csproj.GenerateResource.cache
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.csproj.CoreCompileInputs.cache
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.exe
+C:\Users\pibm9\Desktop\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.pdb
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.csproj.AssemblyReference.cache
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\App.g.cs
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2_MarkupCompile.cache
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.exe
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.pdb
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\bin\Debug\WPFAndMVVM2.exe.config
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\bin\Debug\WPFAndMVVM2.exe
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\bin\Debug\WPFAndMVVM2.pdb
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\Views\MainWindow.g.cs
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2_MarkupCompile.lref
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\Views\MainWindow.baml
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.g.resources
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.Properties.Resources.resources
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.csproj.GenerateResource.cache
+C:\Users\pibm9\OneDrive - UCL Erhvervsakademi og Professionshøjskole\Dokumenter\Datamatiker\Programmering\WPFAndMVVM2\obj\Debug\WPFAndMVVM2.csproj.CoreCompileInputs.cache
