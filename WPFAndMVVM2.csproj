@@ -63,6 +63,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Controller\RelayCommand.cs" />
+    <Compile Include="Controller\ViewModelBase.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\PersonRepository.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
@@ -98,5 +100,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

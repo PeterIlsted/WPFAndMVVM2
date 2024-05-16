@@ -128,6 +128,15 @@ namespace WPFAndMVVM2.Models
             else
                 throw (new ArgumentException("Person with id = " + id + " not found"));
         }
-
+        public Person NewPerson()
+        {
+            Person person = new Person();
+            person.FirstName = "Specify FirstName";
+            person.LastName = "Specify LastName";
+            person.Age = 0;
+            person.Phone = "Specify Phone";
+            persons.Add(person);
+            return person;
+        }
     }
 }

@@ -3,22 +3,17 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using WPFAndMVVM2.Models;
+using WPFAndMVVM2.Controller;
 using System.Windows.Input;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 namespace WPFAndMVVM2.ViewModels
 {
-    public class MainViewModel : INotifyPropertyChanged
+    internal class MainViewModel : ViewModelBase
     {
         
         private PersonRepository personRepo = new PersonRepository();
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
 
         // Implement the rest of this MainViewModel class below to 
         // establish the foundation for data binding !
@@ -31,7 +26,11 @@ namespace WPFAndMVVM2.ViewModels
             {
                 if (value != _selectedPerson)
                 {
+                    if (_selectedPerson != null)
+                        personRepo.Update(selectedPerson.ID, selectedPerson.FirstName, selectedPerson.LastName, selectedPerson.Age, selectedPerson.Phone);
                     _selectedPerson = value;
+
+                    //personRepo.Update(selectedPerson.ID, selectedPerson.FirstName, selectedPerson.LastName, selectedPerson.Age, selectedPerson.Phone);
                     OnPropertyChanged();
                 }
             }
@@ -44,13 +43,34 @@ namespace WPFAndMVVM2.ViewModels
             foreach (var person in personRepo.GetAll())
             {
                 PersonVM.Add(new PersonViewModel(person));
+                
             }
 
         }
-        //public void OnPropertyChanged(PersonViewModel personVM)
-        //{
-        //    PropertyChangedEventHandler handler = PropertyChanged;
-        //    if (handler != null) handler(this, new PropertyChangedEventArgs(personVM));
-        //}
+        
+        public void AddDefaultPerson()
+        {
+            personRepo.NewPerson();
+            foreach (var person in personRepo.GetAll())
+            {
+                foreach (var person2 in PersonVM)
+                {
+                    if (person.FirstName == person2.FirstName)
+                        continue;
+                    else selectedPerson = new PersonViewModel(person);
+
+                }
+            }
+            PersonVM.Add(selectedPerson);
+            OnPropertyChanged();
+        }
+        public void DeleteSelectedPerson()
+        {
+            int id = selectedPerson.ID;
+            
+            PersonVM.Remove(selectedPerson);
+            personRepo.Remove(id);
+            OnPropertyChanged();
+        }
     }
 }

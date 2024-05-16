@@ -31,7 +31,10 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <StackPanel Orientation="Horizontal" Grid.Row="1"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="1">
+                <Button Name="btnNewPerson"  Width="66" Height="20" Content="New" Click="btnNewPerson_Click"/>
+                <Button Name="btnDeletePerson" Width="50" Height="20" Content="Delete" Click="btnDeletePerson_Click"/>
+            </StackPanel>
         </Grid>
 
         <GridSplitter Width="5" Grid.Column="1" HorizontalAlignment="Stretch"/>
