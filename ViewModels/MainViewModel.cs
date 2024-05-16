@@ -47,7 +47,8 @@ namespace WPFAndMVVM2.ViewModels
             }
 
         }
-        
+        public RelayCommand AddCommand => new RelayCommand(execute => AddDefaultPerson());
+        public RelayCommand DeleteCommand => new RelayCommand(execute => DeleteSelectedPerson(), canExecute => selectedPerson != null);
         public void AddDefaultPerson()
         {
             personRepo.NewPerson();

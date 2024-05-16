@@ -27,16 +27,5 @@ namespace WPFAndMVVM2
             InitializeComponent();
             DataContext = mvm;
         }
-
-        private void btnNewPerson_Click(object sender, RoutedEventArgs e)
-        {
-            mvm.AddDefaultPerson();
-        }
-
-        private void btnDeletePerson_Click(object sender, RoutedEventArgs e)
-        {
-            mvm.DeleteSelectedPerson();
-            mvm.selectedPerson = null;
-        }
     }
 }

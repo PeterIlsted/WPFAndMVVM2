@@ -32,8 +32,8 @@
                 </ListBox.ItemTemplate>
             </ListBox>
             <StackPanel Orientation="Horizontal" Grid.Row="1">
-                <Button Name="btnNewPerson"  Width="66" Height="20" Content="New" Click="btnNewPerson_Click"/>
-                <Button Name="btnDeletePerson" Width="50" Height="20" Content="Delete" Click="btnDeletePerson_Click"/>
+                <Button Name="btnNewPerson" Command="{Binding AddCommand}"  Width="66" Height="20" Content="New"/>
+                <Button Name="btnDeletePerson" Command="{Binding DeleteCommand}" Width="50" Height="20" Content="Delete"/>
             </StackPanel>
         </Grid>
 
